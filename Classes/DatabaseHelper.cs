@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace SQLExample.Classes
 {
@@ -23,9 +24,16 @@ namespace SQLExample.Classes
             return false; // Otherwise, return false
         }
 
-        public static List<Book> Read(string db_path)
+        public static List<Book> Read(string db_path) // Open the data base
         {
-            
+            List<Book> books = new List<Book>(); // Place all the items into the list Book
+
+            using (var conn = new SQLite.SQLiteConnection(db_path)) // Take all the data from the database
+            {
+                books = conn.Table<Book>().ToList();// Put all the data from the database into the variable books
+            }
+
+            return books; // Return the entire lists of books saved into the books variable
         }
 
     }
