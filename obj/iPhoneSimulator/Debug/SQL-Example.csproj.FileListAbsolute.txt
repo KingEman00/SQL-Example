@@ -1,9 +1,0 @@
-/Users/emmanuelo10/Desktop/repos/SQL-Example/SQL-Example/bin/iPhoneSimulator/Debug/SQL-Example.exe
-/Users/emmanuelo10/Desktop/repos/SQL-Example/SQL-Example/bin/iPhoneSimulator/Debug/SQL-Example.pdb
-/Users/emmanuelo10/Desktop/repos/SQL-Example/SQL-Example/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/ibtool/_BundleResourceWithLogicalName.items
-/Users/emmanuelo10/Desktop/repos/SQL-Example/SQL-Example/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/actool/_PartialAppManifest.items
-/Users/emmanuelo10/Desktop/repos/SQL-Example/SQL-Example/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/actool/_BundleResourceWithLogicalName.items
-/Users/emmanuelo10/Desktop/repos/SQL-Example/SQL-Example/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/optimized/
-/Users/emmanuelo10/Desktop/repos/SQL-Example/SQL-Example/obj/iPhoneSimulator/Debug/SQL-Example.csproj.CoreCompileInputs.cache
-/Users/emmanuelo10/Desktop/repos/SQL-Example/SQL-Example/obj/iPhoneSimulator/Debug/SQL-Example.exe
-/Users/emmanuelo10/Desktop/repos/SQL-Example/SQL-Example/obj/iPhoneSimulator/Debug/SQL-Example.pdb
