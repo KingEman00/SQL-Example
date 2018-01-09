@@ -42,13 +42,16 @@ namespace SQLExample
 
             var data = books[indexPath.Row];
 
+            cell.TextLabel.Text = data.Name; // Replace title text with name from database
+            cell.DetailTextLabel.Text = data.Author; // Replace subtitle text with author from database
 
-            return base.GetCell(tableView, indexPath);
+
+            return cell;
         }
 
         public override nint RowsInSection(UITableView tableView, nint section)
         {
-            return base.RowsInSection(tableView, section);
+            return books.Count; // Return the amount of books 
         }
     }
 }

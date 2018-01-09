@@ -34,6 +34,7 @@ namespace SQLExample
 
             if (DatabaseHelper.Insert(ref newBook, db_path)) // If there is a new book to be added add it
                 Console.WriteLine("SUCCESS"); // LOG SUCCESS if all works
+            
             else
                 Console.WriteLine("FAILURE"); // LOG FAILURE if something doesn't work
 
