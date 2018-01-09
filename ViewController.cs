@@ -33,7 +33,8 @@ namespace SQLExample
             };
 
             if (DatabaseHelper.Insert(ref newBook, db_path)) // If there is a new book to be added add it
-                Console.WriteLine("SUCCESS"); // LOG SUCCESS if all works
+                //Console.WriteLine("SUCCESS"); // LOG SUCCESS if all works
+                NavigationController.PopToRootViewController(true); // After item has been added, return user to root page
             
             else
                 Console.WriteLine("FAILURE"); // LOG FAILURE if something doesn't work
